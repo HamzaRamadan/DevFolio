@@ -1,0 +1,80 @@
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .navbar-nav li a:before {
+    left: 0px !important;
+  }
+
+  .navbar-nav li:hover a:before {
+    width: 10% !important;
+  }
+
+  header h1 {
+    font-size: 50px !important;
+    font-weight: 500 !important;
+  }
+
+  header p {
+    font-size: 30px !important;
+    font-weight: 400 !important;
+  }
+
+  .carousel-caption p {
+    font-size: 10px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 16px;
+  }
+
+  .carousel-item img {
+    top: 0 !important;
+  }
+
+  .carousel-caption {
+    top: 15% !important;
+  }
+}
+
+/* max-width 768............................ */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .navbar-nav li a:before {
+    left: 0px !important;
+  }
+
+  .navbar-nav li:hover a:before {
+    width: 10% !important;
+  }
+
+  header h1 {
+    font-size: 50px !important;
+    font-weight: 500 !important;
+  }
+
+  header p {
+    font-size: 30px !important;
+    font-weight: 400 !important;
+  }
+
+  .carousel-item img {
+    top: -85% !important;
+  }
+
+  .carousel-caption {
+    top: -50% !important;
+  }
+}
+
+/* max-width 1024............................ */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .navbar-nav li a:before {
+    left: 0px !important;
+  }
+
+  .navbar-nav li:hover a:before {
+    width: 8% !important;
+  }
+  .about-p {
+    margin-top: 5px !important;
+  }
+}
